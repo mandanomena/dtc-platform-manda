@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    height: 100dvh;
+}
+
+.log{
+    background-color: #F6F6F6;
+    width: 350px;
+    box-shadow: 1px 5px 15px  black;
+    border-radius: 20px;
+}
+#steph{
+    width: 350px;
+}
+.pl{
+    height: 70px;
+}
+.left{
+    display: flex;
+    width: 450px;
+}
+
+#connect{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37.25px;
+    color: #173B99;
+}
+#btn{
+    background-color: #173B99;
+    width: 300px;
+}
+#tri{
+    position: relative;
+    bottom: 240px;
+    left: 350px;
+}
+#tri2{
+    position: relative;
+    top: 240px;
+    right: 400px;
+}
+
+@media only screen and (max-width:600px){
+    main{
+        display: flex;
+    }
+    .pl{
+        width: 0px;
+        height: 0px;
+    }
+    #steph{
+        width: 400px;
+    }
+    .log{
+        width: 300px;
+        border-radius: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
