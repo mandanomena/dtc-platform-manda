@@ -8,40 +8,38 @@
     <link rel="stylesheet" href="../style/session.css">
 </head>
 <body class=" justify-content-center align-items-center p-5 ">
-    <main class="row rounded-5">
-        <div class="col align-items-center justify-content-center left">
-            <img src="../image/Frame 2.svg" alt="tri" class="pl" id="tri">
-            <img src="../image/Frame 1845.svg" alt="" id="steph">
-            <img src="../image/Rectangle 3.svg" alt="" class=" pl" id="tri2">
+    <main class="row">
+          <div class="col align-items-center justify-content-center left">
+            <img src="../image/image.svg" alt="img" id="img">
+          </div>
+        <div class="col pt-3 log">
+          <img src="../image/triangle.svg" alt="triangle" id="tri">
+          <header class="text-center">
+              
+              <img src="../image/logo2.svg" alt="logo">
+              <p id="connect" class="pt-3">Connectez-vous</p>
+          </header>
+          <form id="loginForm" action="submit" methode="poste" class="mx-5">
+            <div class="row input justify-content-center">
+              <div class="row mt-3">
+                <label for="Email" class="form-label ">Email</label>
+                <input type="email" class="form-control" id="Email" name="email"required>
+              </div>
+              <div class="row mt-3">
+                <label for="password" class="form-label">Mot de passe</label>
+                <input type="password" class="form-control" id="password" name="password"required>
+              </div>
+              <div class="col mt-4">
+                <button class="btn text-white" id="btn">connexion</button>
+              </div>
+            </div>
+            <div class="row text-center mt-5 footer">
+              <p class="footer">Vous n'avez pas encore du compte? <a href="#" class="nav-link text-primary">Inscrivez-vous</a></p>
+             
+            </div>
+          </form>
         </div>
-      <div class="col pt-3 log">
-        <header class="text-center">
-            <img src="../image/logo2.svg" alt="logo">
-            <p id="connect">Connectez-vous</p>
-        </header>
-        <form id="loginForm" action="submit" methode="poste">
-          <div class="col mt-3">
-            <label for="Email" class="form-label fw-bolder">Email</label>
-            <input type="email" class="form-control" id="Email" name="email" placeholder="Enter your e-mail" required>
-          </div>
-          <div class="col mt-3">
-            <label for="password" class="form-label fw-bolder">Mot de passe</label>
-            <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
-          </div>
-          <div class="col mt-3 text-center">
-            <button class="btn text-white" id="btn">connexion</button>
-          </div>
-          <p class="border-top mt-3 mb-3 text-center">ou</p>
-          <a class="border nav-link text-center p-2" href="https://www.google.com">
-            <img src="../image/flat-color-icons_google.svg" alt="icon">
-            Continuer avec Google
-          </a>
-          <div class="row text-center m-2 p-3">
-            <p>Vous n'avez pas encore du compte?</p>
-            <a href="#">Inscrivez-vous</a>
-          </div>
-        </form>
-      </div>
+
     </main>
     
     <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
